@@ -12,7 +12,7 @@ function About() {
                     <span id="last-name" className="text-primary">Gomez</span>
                 </h1>
                 <div id="address" className="subheading mb-5">
-                    713 Cameron Bridge Way · Johns Creek, GA 30022 · (760) 468-5194 ·
+                    Johns Creek, GA 30022 · (760) 468-5194 ·
                     <a id="email" href="mailto:enrique_g_gomez@hotmail.com">enrique_g_gomez@hotmail.com</a>
                     
                 </div>
