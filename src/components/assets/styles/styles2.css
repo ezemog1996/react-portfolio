@@ -1,0 +1,25 @@
+.project {
+    width: 100%;
+}
+
+.project-div {
+    background-color: black;
+    color: white;
+    border-width: thick !important;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.img-profile {
+    border-color: goldenrod;
+}
+
+#last-name {
+    color: black !important;
+}
+
+#address {
+    color: black;
+}
