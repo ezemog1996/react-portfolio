@@ -4,7 +4,7 @@ import './assets/styles/styles2.css';
 import StriveRite from './assets/images/striverite.png';
 import Outdoorsy from './assets/images/Outdoorsy.png';
 import EmployeeManagement from './assets/images/Employee-Management-System.png';
-import TeamGenerator from './assets/images/Employee-Team-Generator.png';
+import EmployeeDirectory from './assets/images/Employee-Directory.png';
 import ElFuegoEatery from './assets/images/ElFuegoEatery.png';
 
 function Projects() {
@@ -45,22 +45,22 @@ function Projects() {
                         </div>
                     </div>
                     <div className="row project-div p-3 border border-primary rounded mb-4 d-flex align-items-center">
+                        <a className="col-md-6 small-screen-priority" href="https://github.com/ezemog1996/employee-directory.git" target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={EmployeeDirectory}/></a>
+                        <div className="col-md-6 mt-2">
+                            <h4 className="text-primary">Employee Directory</h4>
+                            <p>   
+                                This employee directory uses React and a random user generator API to populate the employees. It makes is easy for managers to access all the necessary information about their employees for easy and quick access when the information is needed.
+                                They can be sorted by name and be filtered by whether they have an ID number or not. To view the live site <a href="https://ezemog1996.github.io/employee-directory/" target="_blank" rel="noreferrer">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row project-div p-3 border border-primary rounded mb-4 d-flex align-items-center">
                         <a className="col-md-6" href="https://github.com/ezemog1996/Employee-Management-System.git" target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={EmployeeManagement}/></a>
                         <div className="col-md-6 mt-2">
                             <h4 className="text-primary">Employee Management System</h4>
                             <p>   
                                 This employee management system runs in the terminal using Node.js and MySQL. A user can add departments, roles, and employees. Each role must be assigned to a department, and each employee but be assigned a role and to a manager.
                                 It also keeps track of salaries and department budgets by adding the salaries of all the employees in that department.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="row project-div p-3 border border-primary rounded mb-4 d-flex align-items-center">
-                        <a className="col-md-6 small-screen-priority" href="https://github.com/ezemog1996/Employee-Team-Generator.git" target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={TeamGenerator}/></a>
-                        <div className="col-md-6 mt-2">
-                            <h4 className="text-primary">Employee Team Generator</h4>
-                            <p>   
-                                This employee team generator makes is easy for managers to generate a page with all the necessary information about their employees for easy and quick access when the information is needed.
-                                It is run in the terminal using Node.js and a JSON file as the database. Once a manager is finished entering their employees' information, a new HTML file is generated displaying each employee along with their information.
                             </p>
                         </div>
                     </div>
