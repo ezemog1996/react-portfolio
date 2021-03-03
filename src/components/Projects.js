@@ -5,7 +5,7 @@ import StriveRite from './assets/images/striverite.png';
 import Outdoorsy from './assets/images/Outdoorsy.png';
 import EmployeeManagement from './assets/images/Employee-Management-System.png';
 import TeamGenerator from './assets/images/Employee-Team-Generator.png';
-import WeatherDashboard from './assets/images/Weather-Dashboard.png';
+import ElFuegoEatery from './assets/images/ElFuegoEatery.png';
 
 function Projects() {
     return (
@@ -35,6 +35,15 @@ function Projects() {
                             </p>
                         </div>
                     </div>
+                    <div className="row project-div p-3 border border-primary rounded d-flex align-items-center">
+                        <a className="col-md-6" href="https://github.com/ezemog1996/El-Fuego-Eatery.git"target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={ElFuegoEatery}/></a>
+                        <div className="col-md-6 mt-2">
+                            <h4 className="text-primary">El Fuego Eatery</h4>
+                            <p>   
+                            This is a reservation making app. It uses React, Node.js, Express, MongoDB, and Bootstrap. The client page is where reservations are made. There is also an admin page where reservations can be viewed and checked off as they're seated or if they cancel. Only reservations of the current day show and any reservations made on a different day will show when that day arrives. Currently, there is no authentication for the admin page.<a href="http://elfuegoeatery.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
                     <div className="row project-div p-3 border border-primary rounded mb-4 d-flex align-items-center">
                         <a className="col-md-6" href="https://github.com/ezemog1996/Employee-Management-System.git" target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={EmployeeManagement}/></a>
                         <div className="col-md-6 mt-2">
@@ -52,16 +61,6 @@ function Projects() {
                             <p>   
                                 This employee team generator makes is easy for managers to generate a page with all the necessary information about their employees for easy and quick access when the information is needed.
                                 It is run in the terminal using Node.js and a JSON file as the database. Once a manager is finished entering their employees' information, a new HTML file is generated displaying each employee along with their information.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="row project-div p-3 border border-primary rounded d-flex align-items-center">
-                        <a className="col-md-6" href="https://github.com/ezemog1996/Weather-Dashboard.git"target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={WeatherDashboard}/></a>
-                        <div className="col-md-6 mt-2">
-                            <h4 className="text-primary">Weather Dashboard</h4>
-                            <p>   
-                                This weather app uses Open Weather API to generate today's weather and the five-day forecast of any desired city.
-                                The searched city is also saved to a list of all the cities searched by the user. To view the live site <a href="https://ezemog1996.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">Click Here</a>
                             </p>
                         </div>
                     </div>
