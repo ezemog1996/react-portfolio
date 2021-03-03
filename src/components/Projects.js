@@ -40,7 +40,7 @@ function Projects() {
                         <div className="col-md-6 mt-2">
                             <h4 className="text-primary">El Fuego Eatery</h4>
                             <p>   
-                            This is a reservation making app. It uses React, Node.js, Express, MongoDB, and Bootstrap. The client page is where reservations are made. There is also an admin page where reservations can be viewed and checked off as they're seated or if they cancel. Only reservations of the current day show and any reservations made on a different day will show when that day arrives. Currently, there is no authentication for the admin page.<a href="http://elfuegoeatery.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a>
+                            This is a reservation making app. It uses React, Node.js, Express, MongoDB, and Bootstrap. The client page is where reservations are made. There is also an admin page where reservations can be viewed and checked off as they're seated or if they cancel. Only reservations of the current day show and any reservations made on a different day will show when that day arrives. Currently, there is no authentication for the admin page. To view the live site <a href="http://elfuegoeatery.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a>
                             </p>
                         </div>
                     </div>
