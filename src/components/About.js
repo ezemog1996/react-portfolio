@@ -13,7 +13,7 @@ function About() {
                 </h1>
                 <div id="address" className="subheading mb-5">
                     Johns Creek, GA 30022 · (760) 468-5194 ·
-                    <a id="email" href="mailto:enrique_g_gomez@hotmail.com">enrique_g_gomez@hotmail.com</a>
+                    <a id="email" href="mailto:enrique_g_gomez@outlook.com">enrique_g_gomez@outlook.com</a>
                     
                 </div>
                 <a href={Resume} target="_blank" rel="noreferrer">Resume <i className="fas fa-file"></i></a> 
