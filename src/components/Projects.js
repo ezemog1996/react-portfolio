@@ -20,7 +20,7 @@ function Projects() {
                             <h4 className="text-primary">Mom and Pop</h4>
                             <p>   
                                 Mom and Pop uses MySQL, Express, React, and Node. It is a possible platform for small businesses to create an account with their details a profile picture for consumers to review their services. Businesses can be found by zip code and service or company name.
-                                To view the live site <a href="http://momandpop2021.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a> 
+                                To view the live site <a href="https://momandpop2021.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a> 
                             </p>
                         </div>
                     </div>
