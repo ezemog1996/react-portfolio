@@ -4,7 +4,7 @@ import './assets/styles/styles2.css';
 import StriveRite from './assets/images/striverite.png';
 import Outdoorsy from './assets/images/Outdoorsy.png';
 import MomAndPop from './assets/images/MomAndPop.png';
-import EmployeeDirectory from './assets/images/Employee-Directory.png';
+import GoogleBooksSearch from './assets/images/GoogleBooksSearch.png';
 import ElFuegoEatery from './assets/images/ElFuegoEatery.png';
 
 function Projects() {
@@ -46,21 +46,21 @@ function Projects() {
                         </div>
                     </div>
                     <div className="row project-div p-3 border border-primary rounded mb-4 d-flex align-items-center">
-                        <a className="col-md-6" href="https://github.com/ezemog1996/El-Fuego-Eatery.git"target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={ElFuegoEatery}/></a>
+                        <a className="col-md-6" href="https://github.com/ezemog1996/Google-Books-Search.git"target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={GoogleBooksSearch}/></a>
                         <div className="col-md-6 mt-2">
-                            <h4 className="text-primary">El Fuego Eatery</h4>
+                            <h4 className="text-primary">Google Books Search</h4>
                             <p>   
-                            This is a reservation making app. It uses React, Node.js, Express, MongoDB, and Bootstrap. The client page is where reservations are made. There is also an admin page where reservations can be viewed and checked off as they're seated or if they cancel. Only reservations of the current day show and any reservations made on a different day will show when that day arrives. Currently, there is no authentication for the admin page. To view the live site <a href="http://elfuegoeatery.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a>
+                            In this app, users can search the Google Books API and save books they are interested in. They can navigate to the Saved Books page to view the books they've saved.
+                            To view the live site <a href="https://amazinggooglebooks.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a>
                             </p>
                         </div>
                     </div>
                     <div className="row project-div p-3 border border-primary rounded d-flex align-items-center">
-                        <a className="col-md-6 small-screen-priority" href="https://github.com/ezemog1996/employee-directory.git" target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={EmployeeDirectory}/></a>
+                        <a className="col-md-6" href="https://github.com/ezemog1996/El-Fuego-Eatery.git"target="_blank" rel="noreferrer"><img alt="a project" className="project height-auto" src={ElFuegoEatery}/></a>
                         <div className="col-md-6 mt-2">
-                            <h4 className="text-primary">Employee Directory</h4>
+                            <h4 className="text-primary">El Fuego Eatery</h4>
                             <p>   
-                                This employee directory uses React and a random user generator API to populate the employees. It makes is easy for managers to access all the necessary information about their employees for easy and quick access when the information is needed.
-                                They can be sorted by name and be filtered by whether they have an ID number or not. To view the live site <a href="https://ezemog1996.github.io/employee-directory/" target="_blank" rel="noreferrer">Click Here</a>
+                            This is a reservation making app. It uses React, Node.js, Express, MongoDB, and Bootstrap. The client page is where reservations are made. There is also an admin page where reservations can be viewed and checked off as they're seated or if they cancel. Only reservations of the current day show and any reservations made on a different day will show when that day arrives. Currently, there is no authentication for the admin page. To view the live site <a href="https://elfuegoeatery.herokuapp.com/" target="_blank" rel="noreferrer">Click Here</a>
                             </p>
                         </div>
                     </div>
